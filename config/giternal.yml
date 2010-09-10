@@ -1,0 +1,3 @@
+sfPropelActAsBlameableBehaviorPlugin:
+  repo: git@github.com:ArnaudD/sfPropelActAsBlameableBehaviorPlugin.git
+  path: plugins
