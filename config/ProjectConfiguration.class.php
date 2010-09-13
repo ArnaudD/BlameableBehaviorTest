@@ -9,5 +9,6 @@ class ProjectConfiguration extends sfProjectConfiguration
   {
     $this->enablePlugins('sfPropel15Plugin');
     $this->enablePlugins('sfTaskExtraPlugin');
+    $this->enablePlugins('sfPropelActAsBlameableBehaviorPlugin');
   }
 }

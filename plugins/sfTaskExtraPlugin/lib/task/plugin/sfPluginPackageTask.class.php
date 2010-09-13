@@ -158,6 +158,8 @@ EOF;
    */
   protected function generatePackageFile(array $arguments, array $options)
   {
+sfConfig::set('sf_charset', 'utf-8');
+
     if (!file_exists($templatePath = $this->pluginDir.'/package.xml.tmpl'))
     {
       $templatePath = dirname(__FILE__).'/../generator/skeleton/plugin/plugin/package.xml.tmpl';
